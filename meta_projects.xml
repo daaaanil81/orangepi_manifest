@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote  name="github"   fetch="https://github.com/" />
+    <remote  name="glodroid" fetch="https://github.com/glodroid/" />
+    <remote  name="yocto"   fetch="git://git.yoctoproject.org/" />
+
+    <project path="poky" remote="yocto" name="poky" revision="4624b855ed47c5da08953191bfbb39e764ecb343" />
+
+</manifest>
