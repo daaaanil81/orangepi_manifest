@@ -6,6 +6,6 @@ Manifest for Camera WebRTC Project
 ```bash
 mkdir -p CameraProject
 cd CameraProject
-repo init -u https://github.com/daaaanil81/orangepi_manifest.git
-repo sync -cq
+repo init -u https://github.com/daaaanil81/orangepi_manifest
+repo sync
 ```
