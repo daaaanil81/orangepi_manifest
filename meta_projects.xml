@@ -2,9 +2,11 @@
 <manifest>
 
     <remote  name="github"   fetch="https://github.com/" />
-    <remote  name="glodroid" fetch="https://github.com/glodroid/" />
+    <remote  name="openembedded" fetch="https://git.openembedded.org/" />
     <remote  name="yocto"   fetch="git://git.yoctoproject.org/" />
 
     <project path="poky" remote="yocto" name="poky" revision="4624b855ed47c5da08953191bfbb39e764ecb343" />
+    <project path="poky/meta-openembedded" remote="openembedded" name="meta-openembedded" revision="5741b949a875b07335d4920aefa6defd13ed45c6" />
+    <project path="poky/meta-sunxi" remote="github" name="linux-sunxi/meta-sunxi.git" revision="7fa2dc331428c08384523a2034afe04a95fe1ddf" />
 
 </manifest>
