@@ -2,5 +2,6 @@
 <manifest>
 
   <include name="meta_projects.xml" />
+  <include name="other_projects.xml" />
 
 </manifest>
