@@ -3,6 +3,6 @@
 
     <remote  name="github"   fetch="https://github.com/" />
 
-    <project path="scripts" remote="github" name="daaaanil81/build_scripts.git" revision="5f8b39fb5fa0b04c8031440b53cc316633617996" />
+    <project path="scripts" remote="github" name="daaaanil81/build_scripts.git" revision="a57e3a4f05e186c2d3c8351bf02f76e46d82e616" />
 
 </manifest>
