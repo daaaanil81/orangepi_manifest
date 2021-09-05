@@ -2,6 +2,14 @@
 
 Manifest for Camera WebRTC Project
 
+## Install Google Repo
+```bash
+mkdir ~/bin
+PATH=~/bin:$PATH
+curl https://storage.googleapis.com/git-repo-downloads/repo-1 > ~/bin/repo
+chmod a+x ~/bin/repo
+```
+
 ## Setup docker
 ```bash
 docker pull daaaanil81/camera_container # Download container
@@ -17,4 +25,10 @@ mkdir -p CameraProject
 cd CameraProject
 repo init -u https://github.com/daaaanil81/orangepi_manifest
 repo sync
+```
+
+## Building Project
+```bash
+cd CameraProject
+source scripts/build.sh
 ```
