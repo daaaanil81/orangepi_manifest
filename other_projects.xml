@@ -4,6 +4,6 @@
     <remote  name="github"   fetch="https://github.com/" />
 
     <project path="scripts" remote="github" name="daaaanil81/build_scripts.git" revision="5aeb942441670d5812eb2ce38cf67237fe8181b3" />
-    <project path="metas/meta-camera" remote="github" name="daaaanil81/build_scripts.git" revision="5ab3bd3657df7eb09938ad9276c8ac3f627ffba4" />
+    <project path="metas/meta-camera" remote="github" name="daaaanil81/build_scripts.git" revision="5aeb942441670d5812eb2ce38cf67237fe8181b3" />
 
 </manifest>
