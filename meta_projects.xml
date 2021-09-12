@@ -8,6 +8,5 @@
     <project path="poky" remote="yocto" name="poky" revision="4624b855ed47c5da08953191bfbb39e764ecb343" />
     <project path="metas/meta-openembedded" remote="openembedded" name="meta-openembedded" revision="5741b949a875b07335d4920aefa6defd13ed45c6" />
     <project path="metas/meta-sunxi" remote="github" name="linux-sunxi/meta-sunxi.git" revision="7fa2dc331428c08384523a2034afe04a95fe1ddf" />
-    <project path="metas/meta-go-binary" remote="github" name="YoeDistro/meta-go-binary.git" revision="7183f68c6fed3c423693e32fee74993202b24f8f" />
 
 </manifest>
