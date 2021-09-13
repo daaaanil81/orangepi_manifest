@@ -3,7 +3,8 @@
 
     <remote  name="github"   fetch="https://github.com/" />
 
-    <project path="scripts" remote="github" name="daaaanil81/build_scripts.git" revision="8a55e0cfc8096262f0c4d6df83fa6af0bf3647f7" />
-    <project path="metas/meta-camera" remote="github" name="daaaanil81/meta-camera.git" revision="245a4f0c3984b722dc765a7bfc9fdeaf447aa491" />
+    <project path="scripts"           remote="github" name="daaaanil81/build_scripts.git" revision="14102c3384f5d6b589d055d623f049e3b9a281a2" />
+    <project path="metas/meta-camera" remote="github" name="daaaanil81/meta-camera.git"   revision="245a4f0c3984b722dc765a7bfc9fdeaf447aa491" />
+    <project path="metas/meta-script" remote="github" name="daaaanil81/meta-script.git"   revision="75c1175665cd7964c6b508b64bd291166209a45a" />
 
 </manifest>
