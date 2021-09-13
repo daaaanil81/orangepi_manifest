@@ -2,6 +2,14 @@
 
 Manifest for Camera WebRTC Project
 
+Support (https://github.com/linux-sunxi/meta-sunxi.git):
+1. orange-pi-one
+2. orange-pi-pc-plus
+3. orange-pi-pc
+4. orange-pi-zero-plus2-h3
+5. orange-pi-zero-plus2
+6. orange-pi-zero
+
 ## Install Google Repo
 ```bash
 mkdir ~/bin
@@ -31,4 +39,11 @@ repo sync
 ```bash
 cd CameraProject
 source scripts/build.sh
+```
+
+## Flash to sdcard
+```bash
+cd CameraProject/build/tmp/deploy/images/<MACHINE>
+sudo dd if=core-image-minimal-<MACHINE>.sunxi-sdimg of=<DEVICE> bs=1M
+dd if=u-boot-sunxi-with-spl.bin of=<DEVICE> bs=1024 seek=8 conv=notrunc
 ```
