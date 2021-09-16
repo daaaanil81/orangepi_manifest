@@ -4,6 +4,6 @@
     <remote  name="github"   fetch="https://github.com/" />
 
     <project path="scripts"             remote="github" name="daaaanil81/build_scripts.git" revision="9cf2d5ee5528f46a24960461d088a6ff49f4cbe5" />
-    <project path="metas/meta-settings" remote="github" name="daaaanil81/meta-settings.git" revision="0a2e10df8047afcbc5f6bfce08b1095b9978ea65" />
+    <project path="metas/meta-settings" remote="github" name="daaaanil81/meta-settings.git" revision="285dd146b860bfba5a1e1ade05e7b6bb22674dc4" />
 
 </manifest>
